@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>灵活用工</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.1&key=ff5cca8218e9fa55114c8459a6c431f5&plugin=AMap.ToolBar,AMap.Autocomplete,AMap.PlaceSearch"></script>
+  <script src="https://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+
+  <script src="<%= context.config.publicPath +'jquery-3.1.1.min.js'%>"></script>
+  <script src="<%= context.config.publicPath +'jquery-migrate-3.0.0.js'%>"></script>
+  <script src="<%= context.config.publicPath +'jquery.mobile.custom.min.js'%>"></script>
+
+  <script src="<%= context.config.publicPath +'qq-wechat-emotion-parser.min.js'%>"></script>
+  <link href="<%= context.config.publicPath +'ss_favicon.ico'%>" rel="icon" type="image/x-icon"/>
+  <script>
+    document.addEventListener('gesturestart', function (e) { e.preventDefault(); }); // prevents pinch zoom
+  </script>
+
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
